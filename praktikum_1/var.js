@@ -2,13 +2,11 @@
 i = 5;
 y = 8;
 z = i * y;
-
 console.log(z);
 
 // sintaks
 let x;
 x = 6;
-
 console.log(x);
 
 // konstanta
