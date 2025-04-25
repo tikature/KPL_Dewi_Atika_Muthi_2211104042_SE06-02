@@ -11,7 +11,7 @@ class BankTransferConfig {
         low_fee: 6500,
         high_fee: 15000
       },
-      methods: ["RTO (real-time)", "SKN", "RTGS", "BI FAST"],
+      methods: ["RTO (real-time)", "SKN", "RTGS", "BI FAST", "QRIS"],
       confirmation: {
         en: "yes",
         id: "ya"

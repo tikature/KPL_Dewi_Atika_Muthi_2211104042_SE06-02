@@ -22,7 +22,14 @@ class BankTransferApp {
       "Masukkan jumlah uang yang akan di-transfer: ";
 
     const amountStr = await this.askQuestion(promptAmount);
-    const amount = parseFloat(amountStr);    
+    const amount = parseFloat(amountStr);
+
+    // Tambahan Validasi
+    if (isNaN(amount)) {
+        console.log("Input tidak valid. Harap masukkan angka.");
+        this.rl.close();
+        return;
+      }      
 
     const fee = amount <= this.config.transfer.threshold
       ? this.config.transfer.low_fee
