@@ -1,7 +1,7 @@
 # Refactoring Project – Modul 14
 
 **Nama:** Dewi Atika Muthi  
-**NIM:** 221114042
+**NIM:** 2211104042
 
 ## Deskripsi Proyek
 Proyek ini merupakan hasil refactoring dari tugas sederhana pada Modul 4. Fungsi `getGradeByScore` digunakan untuk menentukan nilai huruf berdasarkan skor numerik mahasiswa.
